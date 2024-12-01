@@ -1,0 +1,40 @@
+body {
+    margin: 5%;
+    padding: 50px;
+    background: #87ceeb;
+    outline: solid;
+    outline-offset: -25px;
+    outline-color: #46cc2b;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    border-right: solid;
+    border-right-color: gray;
+    padding: 0px 10px 0 5px;
+    font-weight: 900;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
+a {
+    color: #4acb9a;
+}
+
+article p {
+    overflow: auto;
+}
+
+article p img {
+    float: right;
+}

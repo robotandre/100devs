@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    border: 3px red solid;
+    text-align: center;
+    height: 250px;
+}
+
+header,
+footer {
+    border: 3px solid black;
+    text-align: center;
+    height: 250px;
+    clear: both;
+}
+
+.col-35 {
+    float: left;
+    width: 35%;
+    height: 300px;
+}
+
+.col-65 {
+    float: left;
+    width: 65%;
+    height: 300px;
+}

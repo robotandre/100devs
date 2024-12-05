@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    float: left;
+    max-width: 33.3333%;
+    width: 100%;
+    border: 3px red solid;
+    text-align: center;
+    height: 250px;
+}
+
+header,
+footer {
+    height: 250px;
+    text-align: center;
+    border: 3px solid black;
+    clear: both;
+}
